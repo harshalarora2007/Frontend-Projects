@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.navbar h1{
+    color: red;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.banner{
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.banner button{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+
+.title{
+    margin: 20px;
+}
+
+.movies{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.card{
+    text-align: center;
+    margin: 10px;
+}
+
+.card img{
+    width: 200px;
+    height: 300px;
+}
