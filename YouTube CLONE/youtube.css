@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f1f1f1;
+    font-family: sans-serif;
+}
+
+.header {
+    background-color: white;
+    padding: 15px;
+}
+
+.left {
+    display: inline-block;
+    width: 20%;
+}
+
+.center {
+    display: inline-block;
+    width: 50%;
+}
+
+.right {
+    display: inline-block;
+    width: 25%;
+    text-align: right;
+}
+
+.logo {
+    display: inline-block;
+    background-color: red;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 8px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.search {
+    width: 90%;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid gray;
+}
+
+.top-menu {
+    margin-left: 15px;
+    font-size: 16px;
+}
+
+.main {
+    margin-top: 10px;
+}
+
+.sidebar {
+    width: 15%;
+    background-color: white;
+    display: inline-block;
+    vertical-align: top;
+    height: 900px;
+    padding-top: 20px;
+}
+
+.side-item {
+    padding: 15px;
+    font-size: 18px;
+}
+
+.content {
+    width: 83%;
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 20px;
+}
+
+.categories {
+    margin-bottom: 20px;
+}
+
+.category {
+    display: inline-block;
+    background-color: #e2e2e2;
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.card {
+    width: 300px;
+    background-color: white;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.card img {
+    width: 280px;
+    height: 170px;
+    border-radius: 10px;
+}
+
+.card h3 {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.card p {
+    margin-top: 8px;
+    color: gray;
+}
